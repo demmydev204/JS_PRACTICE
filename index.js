@@ -251,6 +251,12 @@
 console.log('ASAP Frontend'[12]);
 
 
+let USD = 800;
+let AUD = USD * 1.5;
 
+console.log(AUD);
 
+// let EUR = 250;
+// let NGN = EUR * 1500;
 
+// console.log(NGN);
