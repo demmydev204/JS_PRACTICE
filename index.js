@@ -248,15 +248,148 @@
 // let ab = [...a, 7, 8, ...b];
 // console.log(ab);
 
-console.log('ASAP Frontend'[12]);
+// console.log('ASAP Frontend'[12]);
 
 
-let USD = 800;
-let AUD = USD * 1.5;
+// let USD = 800;
+// let AUD = USD * 1.5;
 
-console.log(AUD);
+// console.log(AUD);
 
 // let EUR = 250;
 // let NGN = EUR * 1500;
 
 // console.log(NGN);
+
+
+// let hasMembership = false;
+
+// let signedIn = truue;
+
+// if (hasMembership === true) {
+//   console.log('Show user the video page');
+// }
+
+// else if (signedIn === true) {
+//   console.log('Upgrade your account to view the content');
+// }
+
+//  else {
+//   console.log('Tell user to login their info');
+// }
+
+// let jobAge = 23;
+
+// if (jobAge > 25) {
+//   console.log(`You're ${26} years old, you're hired in our company`);
+// } 
+// else if (jobAge === 25) {
+//   console.log('You just turned 25, heres your job application');
+// }
+
+// else {
+//   console.log(`You're ${23} years old, come back next year`);
+// }
+
+
+
+// let isRaining = false;
+
+// isRaining ? console.log('it is raining') : console.log('there is no rain');
+
+// let myAge = 17;
+// let hasId = true;
+
+// let myBio = myAge >= 18 && hasId ? 'You may enter the club' : 'You are not allowed here, get outta now';
+
+// console.log(myBio);
+
+
+// let logginIn = true;
+// let hasMembershipof = true;
+
+// let updateData = logginIn && hasMembershipof ? 'show video' :  `don't show video`;
+
+// console.log(updateData);
+
+// for (let ade = 0; ade < 20; ade++) {
+//     console.log(ade);
+// }
+
+// for (let b = 1; b <= 15; b++) {
+
+//     if (b % 5 === 0) {
+//         console.log(`${b} - ASAP Frontend`);
+//     }
+
+//     else if(b % 2 === 0)  {
+//         console.log(`${b} - Frontend`);
+//     }
+
+//     else {
+//         console.log(`${b} - ASAP`);
+//     }
+// }
+
+// let brandName = 'ASAP Frontend'
+
+// for (let y = 0; y < brandName.length; y++) {
+//     console.log(brandName[y]);
+// }
+
+// let myName = 'Chuks Demmy'
+
+// for(n = 0; n < myName.length; n++) {
+//     console.log(myName[n]);
+// }
+
+
+// function greetUser (sammy, time) {
+//     console.log(`Good ${time}, ${sammy}`);
+// }
+
+// greetUser('King Von', 'morning');
+// greetUser('Juice Wrld', 'morning');
+// greetUser('YNW Melly', 'morning');
+
+// function fan(no1, no2) {
+//     return no1 * no2;
+// }
+
+// console.log(fan(15, 20));
+
+
+// function convertCurrency(USD) {
+//     // return AUD = USD * 1.5;
+//     return EUR = USD * 0.85;
+// }
+
+// console.log(convertCurrency(1000));
+// console.log(convertCurrency(500));
+// console.log(convertCurrency(200));
+// console.log(convertCurrency(250));
+
+// const convertCurrency = (USD) => {
+// return USD * 1.5;
+// }
+
+// console.log(convertCurrency(1000));
+
+let listOfFruits = ['Apples', 'Orange', 'Bananas', 'Milk', 'Cheese', 'Eggs']
+
+// console.log(listOfFruits[listOfFruits.length - 1]);
+
+listOfFruits.push('Bread');
+
+listOfFruits.filter((element) => {
+    console.log(element);
+});
+
+// console.log(listOfFruits);
+
+console.log()
+
+
+
+
+
