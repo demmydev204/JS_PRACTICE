@@ -375,19 +375,53 @@
 
 // console.log(convertCurrency(1000));
 
-let listOfFruits = ['Apples', 'Orange', 'Bananas', 'Milk', 'Cheese', 'Eggs']
+// let listOfFruits = [20, 15, 10, 30]
 
-// console.log(listOfFruits[listOfFruits.length - 1]);
+// // console.log(listOfFruits[listOfFruits.length - 1]);
 
-listOfFruits.push('Bread');
+// // listOfFruits.push('Bread');
 
-listOfFruits.filter((element) => {
-    console.log(element);
-});
+// // filter method 
+// let filteredlistOfFrutis = listOfFruits.filter((element) => {
+//     console.log(element);
+//     if(element < 20) {
+// return true;
+//     }
+    
+// });
 
-// console.log(listOfFruits);
+// console.log(filteredlistOfFrutis);
+// // console.log(listOfFruits);
 
-console.log()
+// console.log()
+
+// document.querySelector('body').style.backgroundColor = "purple"
+
+
+// 1st method to get a element from html tag
+// console.log(document.querySelector('#heading'));
+
+// 2nd method to get element from html tag using id
+// console.log(document.getElementById('heading'));
+
+
+// document.querySelector('h2').innerHTML += 'Chuks Demmy'
+
+// document.querySelector('h2').style.fontSize = '20px'
+
+// function changeButtonToBlue() {
+//     // console.log('Changes button to green');
+//     console.log(document.querySelector('button').style.backgroundColor = "green");
+// }
+
+
+// Changes ClassNames
+
+function toggleSidebar() {
+
+    document.querySelector('body').classList.toggle("open")
+}
+
 
 
 

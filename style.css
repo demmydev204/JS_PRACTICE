@@ -1,1 +1,19 @@
 /* My Javascript Journey */
+
+body {
+    background-color: lightgrey;
+}
+
+.sidebar {
+    position: fixed;
+    background-color: black;
+    width: 300px;
+    height: 100vh;
+    top: 0;
+    right: 0;
+    display: none;
+}
+
+.open .sidebar {
+    display: block;
+}
